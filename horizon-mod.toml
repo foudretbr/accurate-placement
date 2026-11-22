@@ -1,6 +1,6 @@
 id = "accurate_placement"
 name = "Accurate Placement"
-version = "1.0.0"
+version = "1.0.1"
 description = "Hold right click with a block and every new spot you look at gets one, however fast you move."
 authors = ["foudretbr"]
 api = "0.2"

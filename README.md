@@ -15,7 +15,7 @@ not just place.
 - Blocks that react to a click (doors, chests, buttons, levers...) get vanilla's click; scaffolding on scaffolding climbs
   as in vanilla.
 
-It is client side. Some servers see fast, accurate placing as a cheat: check their rules before using it.
+It works **only in your own worlds** (singleplayer and worlds you host). On a remote server it does nothing: the game places at its normal rate, so it cannot trip a server's anticheat.
 
 This version has no settings screen or toggle key: remove the mod to turn it off.
 

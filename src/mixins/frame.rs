@@ -8,8 +8,8 @@ fn abp_frame(game: &mut crate::game::Game<'_>) {
         mod_accurate_placement::runtime::reset();
         return;
     };
-    let allowed = settings.enabled
-        && (game.integrated.is_some() || settings.servers);
+    // Only in your own worlds: on a remote server the game's own placing rate applies.
+    let allowed = settings.enabled && game.integrated.is_some();
     let held = match game.held() {
         Some(stack) => Some(stack.clone()),
         None => game.offhand.clone(),
